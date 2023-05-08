@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+	transition: ease-in-out 2s;
+}
+body{
+	font-family: 'Montserrat',sans-serif;
+}
+.display-none{
+	display: none;
+}
+.navbar{
+	background-color:  #0000009c;
+	height: 90px;
+}
+.nav-item .text{
+	color: #fec926 !important;
+}
+.mob{
+	display: none;
+}
+.banner_title{
+	position: absolute;
+	top: 250px;
+	width: 100%;
+	text-align: center;
+}
+.PRESS_title{
+	font-family: prague;
+	font-size: 6rem;
+}
+
+/*magzine_section CSS STARTS HERE*/
+.nav-pills .nav-link.active{
+	background-color: transparent !important;
+    border-bottom: 2px solid #aba7a7;
+    color: black !important;
+    font-weight: lighter;
+}
+.pr-iocn{
+	width: 24px;
+}
+.magzine_section{
+	height: auto;
+	margin-bottom: 80px;
+}
+.main_magzine_section{
+	padding: 0px 100px !important;
+}
+
+/*ONLINE SECTION STARTS HERE*/
+.online_section{
+	margin: 50px 0px;
+}
+.container_main{
+	width: 70%;
+	height: 600px;
+	margin: 0px auto;
+	box-shadow:   0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+.scrollable{
+	overflow-y: scroll;
+	height: 350px;
+}
+
+h1,h2,h3,h4,h5{
+	font-family: 'Raleway', sans-serif;;
+}
+
+p{
+	font-weight: lighter;
+	font-size: 1.045rem;
+}
+.read{
+	line-height: 40px;
+	border-bottom: 1px solid black;
+}
+.ani:hover{
+	color:  #ffc107;;
+}
+.et_head{
+	cursor: pointer;
+}
+
+
+/*contact_section css starts here*/
+.contact_section{
+	background: #020306f0;
+	width: 100%;
+	height: auto;
+}
+.contact_text{
+	color:  #0000009c;
+	letter-spacing: 1.3px;
+	word-spacing: 1px;
+	line-height: 28px;
+	text-align: justify;
+	font-size: 1.04rem;
+	font-weight: 300;
+}
+.main_contact{
+	margin-top: 50px;
+}
+.address_text{
+	color:  #0000009c;
+	line-height: 28px;
+	text-align: justify;
+	font-size: 1.04rem;
+	font-weight: 300;
+}
+.mobile{
+	color:  #0000009c;
+	font-weight: 300;
+}
+.footer_section{
+	background: #000000;
+	width: 100%;
+	height: auto;
+}
+.footer_text{
+	line-height: 25px;
+	color: white;
+	font-size: 0.9rem;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+@media (max-width: 600px){
+	.img-1 img{
+		display: none;
+	}
+	.mob{
+		display: block;
+		height: auto;
+	}
+	.PRESS_title{
+		font-size: 3rem;
+	}	
+	.img_1 img{
+		height: 400px !important;
+	}
+	.footer_text{
+		font-size: 11px ;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 991px){
+	.PRESS_title{
+		font-size: 50px;
+	}
+	.banner_title{
+		top: 180px;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.navbar-collapse{
+		width: 100%;
+		background-color: #fec926;
+		text-align: center;
+	}
+	.nav-item .text{
+		color: #000000 !important;
+	}
+	.navbar{
+		background-color: #fec926;
+	}
+	.display-none{
+		display: block;
+	}
+	.laptop{
+		display: none;
+	}
+	.container-fluid{
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+}
+@media screen and (max-width: 1235px) and (min-width: 991px){
+	.nav-link{
+		padding: 3.04px !important;
+		margin: 0px !important;
+	}
+}
+@media (min-width: 1245px){
+	.magzine_section{
+		padding: 0px 200px;
+	}
+
+}
+@media screen and (max-width: 768px){
+	.container_main{
+		height: 800px;
+	}
+}
